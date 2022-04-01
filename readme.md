@@ -14,4 +14,13 @@ German:
 
 Ivan:
 
+Páginas de referencia:
+
+https://www.bigbox.com.ar/regalos/aventura/box-adrenalina/
+https://www.argentinaextrema.com/
+https://www.delfos.tur.ar/#/es/home?categoria_id=1110
+https://www.tripadvisor.com.ar/
+https://fanbag.com.ar/
+
+
 
