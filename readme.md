@@ -15,6 +15,8 @@ Oscar es licenciado en relaciones laborales, tiene 42 años y un marcado perfil 
 German : 
 German es Operador y Asesor Bursatil , tiene 36 años y un perfil definido para las inversiones.
 
+Imanol A:
+Imanol es estudiante de economia y programacion, tiene 19 años y aspira a ser un gran programador.
 +++++++++++++++++++++++++++++++++++++++++++++++++++Definir
 
 Ivan :
