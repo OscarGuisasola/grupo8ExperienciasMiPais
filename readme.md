@@ -12,10 +12,10 @@ Mayra es sociologa, tiene 31 años y tiene una basta experiencia en la confecci�
 Oscar G:
 Oscar es licenciado en relaciones laborales, tiene 42 años y un marcado perfil orientado al cliente interno basado en su labor dentro del area de RRHH en distintas empresas del mercado asegurador.
 
+German : 
+German es Operador y Asesor Bursatil , tiene 36 años y un perfil definido para las inversiones.
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++Definir
-German :
-xxxxxxxxxxxxx
 
 Ivan :
 xxxxxxxxxxxxx
