@@ -30,3 +30,7 @@ https://www.delfos.tur.ar/#/es/home?categoria_id=1110
 https://www.tripadvisor.com.ar/
 https://fanbag.com.ar/
 https://www.remax.com.ar/
+https://www.airbnb.es/
+https://giphy.com/
+https://brandoncjohnson.com/
+https://quinntonharris.mystrikingly.com/
