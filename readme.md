@@ -1,26 +1,28 @@
-Nombre Para la web: puntolimitetour.com.ar
+1) URL
+Nombre Para la web: https//www.puntolimitetour.com.ar
 
 
-
+2) Temática del Market Place
 Punto Limite Tour
-**_Breve descripcion del producto:_**
+**Breve descripcion del producto**
  Somos una compañía que ofrece diferentes actividades alternativas relacionadas con el turismo extremo a lo largo y ancho de la Republica Argentina.
- La misión de "PLT" es proponer un amplio abanico de experiencias llenas de intensidad, adrenalina, velocidad y por sobretoda las cosas, brindar momentos únicos en permanente contacto con la naturaleza de nuesto país.
- Si estas preparando tu viaje por el país y querés vivir una experiencia única, te ofrecemos paquetes turísticos, por día o fin de semana, con el acompañamiento de profesionales destacados, guiando cada paso que des. 
+ La misión de "PLT" es proponer un amplio abanico de experiencias llenas de intensidad, adrenalina, velocidad y por sobretoda las cosas, momentos únicos en permanente contacto con la naturaleza de nuesto país.
+ Si estas preparando tu viaje por Argentina, te ofrecemos paquetes turísticos, por día o fin de semana, con el acompañamiento de profesionales destacados que te guiaran en cada paso que des. 
 
+ Punto Limite Tour apunta su servicios a todas aquellas personas que deseen conocer nuestro pais de una manera distinta, saliendo del circuito tradicional de turismo.  
 
-Mayra L M:
+Integrantes del Grupo 8:
+Mayra:
 Mayra es sociologa, tiene 31 años y tiene una basta experiencia en la confección de estadisticas gubernamentales en materia de Seguridad.
-
-Oscar G:
+Oscar:
 Oscar es licenciado en relaciones laborales, tiene 42 años y un marcado perfil orientado al cliente interno basado en su labor dentro del area de RRHH en distintas empresas del mercado asegurador.
-
-German : 
+German: 
 German es Operador y Asesor Bursatil , tiene 36 años y un perfil definido para las inversiones.
-
-Imanol A:
+Imanol:
 Imanol es estudiante de economia y programacion, tiene 19 años y aspira a ser un gran programador.
 
+
+3) Inspiración en referentes del mercado
 **_Páginas de referencia:_** 
 
 Argentina extrema: 
