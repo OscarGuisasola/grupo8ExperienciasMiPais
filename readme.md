@@ -1,11 +1,13 @@
-++++++++++++++++++++++++++++++++++++++++++++**_Nombre Para la web:_**
-//ExperienciasMiPais//
+Nombre Para la web: puntolimitetour.com.ar
 
+
+
+Punto Limite Tour
 **_Breve descripcion del producto:_**
  Somos una compañía que ofrece diferentes actividades alternativas relacionadas con el turismo extremo a lo largo y ancho de la Republica Argentina.
- La misión de "EMP" es proponer un amplio abanico de experiencias llenas de intensidad, adrenalina, velocidad y por sobretoda las cosas, brindar momentos únicos en permanente contacto con la naturaleza de nuesto país.
- Si estas preparando tu viaje por el país y querés vivir una experiencia única, desde EMP te ofrecemos paquetes por día o de fin de semana, con profesionales acompañando cada paso que das. 
-++++++++++++++++++++++++++++++++++++++++++++++++++
+ La misión de "PLT" es proponer un amplio abanico de experiencias llenas de intensidad, adrenalina, velocidad y por sobretoda las cosas, brindar momentos únicos en permanente contacto con la naturaleza de nuesto país.
+ Si estas preparando tu viaje por el país y querés vivir una experiencia única, te ofrecemos paquetes turísticos, por día o fin de semana, con el acompañamiento de profesionales destacados, guiando cada paso que des. 
+
 
 Mayra L M:
 Mayra es sociologa, tiene 31 años y tiene una basta experiencia en la confección de estadisticas gubernamentales en materia de Seguridad.
@@ -18,19 +20,18 @@ German es Operador y Asesor Bursatil , tiene 36 años y un perfil definido para 
 
 Imanol A:
 Imanol es estudiante de economia y programacion, tiene 19 años y aspira a ser un gran programador.
-+++++++++++++++++++++++++++++++++++++++++++++++++++Definir
 
-Ivan :
-xxxxxxxxxxxxx
-
-**_Páginas de referencia:_** (NOS QUEDA INDICAR POR QUÉ LAS ELEGIMOS)
+**_Páginas de referencia:_** 
 
 Argentina extrema: 
 Este sitio web fue elegido porque es un competidor de nuestra empresa. Aquí pueden adquirirse viajes de aventura y eventos deportivos, así como también, organizar uno acompañados por esta empresa. Los destinos que se ofrecen son tanto en Argentina como por el mundo, y la propuesta es de paquetes completos. El requerimiento para viajar en cualquiera de sus viajes, es completar la cantidad de personas mínimas.  
 Sitio: https://www.argentinaextrema.com/ \n
 
 DELFOS TUR:
-https://www.delfos.tur.ar/#/es/home?categoria_id=1110 \n
+Otro interesante sitio dedicado al turismo y a la aventura extrema no solo por nuestro país sino también por varios puntos del globo terraqueo. Con un diseño simple pero completo, Delfos Tur se destaca por ofrecer una gran variedad de opciones para disfrutar de los maravillosos paisajes de la patagonia, cuyo y norte argentino. Con base central en la provincia de Córdoba, cuentan con oficinas propias en Buenos Aires, Mendoza, Neuquén, Santa Fe, Tucumán y Mar del Plata. 
+
+Sitio: https://www.delfos.tur.ar/#/es/home?categoria_id=1110 \n
+
 
 Tripadvisor: 
 Esta web fue elegida por su capacidad para brindarle múltiples búsquedas relacionadas al turismo a las personas. Nos parece interesante la utilización del método de búsqueda apenas se entra al sitio, así como la disposición de distintos botones que permiten filtrar una búsqueda particular (hoteles, cosas que hacer, foros, etc). Además, las experiencias que buscamos cuentan con calificaciones y opiniones de otras personas, que nos permiten conocer experiencias de otros. 
@@ -42,6 +43,7 @@ El diseño de home ofrece un carrusel llamativo que nos muestra rápidamente sit
 Sitio: ttps://www.bigbox.com.ar/regalos/aventura/box-adrenalina/ \n
 
 
+Otros sitios de interes y que nos inspiraron a través de su arquitectura y armado: 
 https://fanbag.com.ar/ \n
 https://www.remax.com.ar/ \n
 https://www.airbnb.es/ \n
