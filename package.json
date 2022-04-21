@@ -1,0 +1,20 @@
+{
+  "name": "grupo8puntolimitetour",
+  "version": "1.0.0",
+  "description": "Nombre Para la web: https//www.puntolimitetour.com.ar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarGuisasola/grupo8PuntoLimiteTour.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarGuisasola/grupo8PuntoLimiteTour/issues"
+  },
+  "homepage": "https://github.com/OscarGuisasola/grupo8PuntoLimiteTour#readme"
+}
