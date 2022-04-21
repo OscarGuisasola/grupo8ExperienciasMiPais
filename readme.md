@@ -22,7 +22,10 @@ Imanol:
 Imanol es estudiante de economía y programación, tiene 19 años y aspira a ser un gran programador.
  
  
-3) Inspiración en referentes del mercado
+3) **Tablero de trabajo:**
+https://trello.com/invite/b/agtpMS7F/60d380d052f0153deb3cb066bdc4c11b/proyecto-integrador
+
+4) Inspiración en referentes del mercado
 **Páginas de referencia:_**
  
 Argentina extrema:
