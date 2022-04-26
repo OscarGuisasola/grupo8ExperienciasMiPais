@@ -1,1 +1,55 @@
-font-family: 'Dosis', sans-serif;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+header{
+    background-color: #F63513;
+}
+
+.top-header{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-header-nav ul li{
+    list-style-type: none;
+}
+
+.main-navbar ul li{
+    list-style-type: none;
+}
+
+.main-navbar a{
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.top-header-nav a{
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.logo{
+    width: 25%;
+    padding: 5px;
+}
+
+footer{
+    background-color: #F63513;
+}
+.copyright{
+    font-size: 12px;
+}
