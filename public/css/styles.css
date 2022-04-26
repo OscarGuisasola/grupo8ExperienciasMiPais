@@ -18,14 +18,39 @@ header{
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.top-header-nav{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .top-header-nav ul li{
     list-style-type: none;
 }
+.main-navbar{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 25px;
+}
 
 .main-navbar ul li{
     list-style-type: none;
+}
+
+.main-navbar ul{
+    display: flex;
+}
+
+.main-navbar li{
+    display: flex;
+    margin: 0 5px;
+    padding: 5px;
 }
 
 .main-navbar a{
@@ -43,13 +68,32 @@ header{
 }
 
 .logo{
-    width: 25%;
+    width: 50%;
     padding: 5px;
+}
+
+.logo img{
+    width: 50%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
 }
 
 footer{
     background-color: #F63513;
 }
+
+.footer-bottom{
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .copyright{
     font-size: 12px;
 }
