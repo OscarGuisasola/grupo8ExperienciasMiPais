@@ -9,8 +9,8 @@ body{
     background-color: #f5f5f5;
 }
 
-header{
-    background-color: #F63513;
+header, footer{
+    background-color: #54457F;
 }
 
 .main-navbar{
@@ -135,10 +135,11 @@ header{
 }
 
 .fa-solid.fa-comment-dots{
-    color: #cfef00;
+    color: #F63513;
     margin: 0 5px;
+    margin-left: 5px;
     font-size: 25px;
-    margin-right: 5px;
+    padding-right: 10px;
 }
     
 .fa-solid.fa-comment-dots:hover{
@@ -147,9 +148,9 @@ header{
     
 .fa-solid.fa-circle-question{
     font-size: 25px;
-    color: #cfef00;
+    color: #F63513;
     border-left: 2px solid #FFF;
-    padding: 0px 0px 0px 15px;
+    padding: 0px 5px 0px 15px;
 }
     
 .fa-solid.fa-circle-question:hover{
@@ -159,8 +160,8 @@ header{
 
 .fa-solid.fa-user{
     font-size: 25px;
-    color: #cfef00;
-    padding: 0px 0px 0px 15px;
+    color: #F63513;
+    padding: 0px 5px 0px 15px;
 }
 
 .fa-solid.fa-user:hover{
@@ -169,7 +170,7 @@ header{
 
 .fa-solid.fa-cart-shopping{
     font-size: 25px;
-    color: #cfef00;
+    color: #F63513;
     border-left: 2px solid #FFF;
     padding: 0px 0px 0px 15px; 
     margin-right: 13px;
@@ -188,9 +189,6 @@ p {
     padding: 10px;
 }
 
-footer{
-    background-color: #F63513;
-}
 
 .footer-bottom{
     padding: 5px;
@@ -206,6 +204,7 @@ footer{
     flex-wrap: wrap;
     width: 40%;
     justify-content:end;
+    align-items: center;
 }
 
 .contact-social a{
@@ -272,6 +271,7 @@ footer{
 .copyright{
     display: flex;
     font-size: 12px;
+    color: #fff;
     font-weight: 600;
     width: 100%;
     justify-content: right;
@@ -280,6 +280,7 @@ footer{
 .end-text{
     display: flex;
     font-family: 'Harashi Free';
+    color: #FFF;
     font-size: 80px;
     font-weight: 400;
     width: 100%;
