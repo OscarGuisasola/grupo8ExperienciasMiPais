@@ -9,55 +9,62 @@ body{
     background-color: #f5f5f5;
 }
 
-
 header{
     background-color: #F63513;
 }
 
-.top-header{
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 25px;
-}
-.top-header-nav{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.top-header-nav ul li{
-    list-style-type: none;
-}
 .main-navbar{
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 25px;
+    justify-content:space-between;
 }
 
-.main-navbar ul li{
-    list-style-type: none;
-}
 
-.main-navbar ul{
-    display: flex;
-}
-
-.main-navbar li{
-    display: flex;
-    margin: 0 5px;
-    padding: 5px;
-}
-
-.main-navbar a{
+.logo a{
     text-decoration: none;
     color: #FFF;
     display: inline-block;
     padding: 5px 0;
+}
+
+.logo{
+    display: flex;
+    width: 15%;
+    justify-content: left;
+}
+
+.logo img{
+    display: flex;
+    width: 180px;
+    
+}
+
+
+
+.top-header-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.nav-center{
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-center ul li{
+    list-style-type: none;
+}
+
+.nav-center li{
+    display: flex;
+    margin: 0 5px;
+    padding: 5px;
 }
 
 .top-header-nav a{
@@ -67,18 +74,118 @@ header{
     padding: 5px 0;
 }
 
-.logo{
-    width: 50%;
-    padding: 5px;
+.button-nav {
+    cursor: pointer;
+    font-weight: 900;
+    font-family: 'Dosis',"sans-serif";
+    transition: all .2s;
+    padding: 5px 15px;
+    border-radius: 100px;
+    background: #cfef00;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+   }
+   
+.button-nav:hover {
+ background: #a6c900;
+}
+   
+.button-nav > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+} 
+
+.button-nav:hover svg {
+    transform: translateX(5px);
+}
+   
+.button-nav:active {
+    transform: scale(0.95);
+}
+   
+.nav-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+    justify-content: space-between;
+    width: 15%;
+}
+.nav-right ul{
+    display: flex;
+    
 }
 
-.logo img{
-    width: 50%;
+.nav-right li{
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    list-style-type: none;
+    color: #FFF;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    padding: 0px 0px 0px 10px
+}
+
+.fa-solid.fa-comment-dots{
+    color: #cfef00;
+    margin: 0 5px;
+    font-size: 25px;
+    margin-right: 5px;
+}
+    
+.fa-solid.fa-comment-dots:hover{
+    color: #a6c900; 
+}
+    
+.fa-solid.fa-circle-question{
+    font-size: 25px;
+    color: #cfef00;
+    border-left: 2px solid #FFF;
+    padding: 0px 0px 0px 15px;
+}
+    
+.fa-solid.fa-circle-question:hover{
+    color: #a6c900;   
+}
+
+
+.fa-solid.fa-user{
+    font-size: 25px;
+    color: #cfef00;
+    padding: 0px 0px 0px 15px;
+}
+
+.fa-solid.fa-user:hover{
+    color: #a6c900;   
+}
+
+.fa-solid.fa-cart-shopping{
+    font-size: 25px;
+    color: #cfef00;
+    border-left: 2px solid #FFF;
+    padding: 0px 0px 0px 15px; 
+    margin-right: 13px;
+}
+
+.fa-solid.fa-cart-shopping:hover{
+    color: #a6c900; 
 }
 
 main{
     width: 90%;
     margin: 0 auto;
+}
+
+p {
+    padding: 10px;
 }
 
 footer{
@@ -94,6 +201,88 @@ footer{
     justify-content: space-between;
 }
 
+.contact-social{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content:end;
+}
+
+.contact-social a{
+    text-decoration: none;
+}
+
+.fa-brands.fa-whatsapp{
+    display: block;
+    width:50px;
+    height:50px;
+    margin: 10px 10px 10px 10px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    box-sizing: border-box;
+    text-align:center;
+    font-size:50px;
+    
+  }
+
+  .fa-brands.fa-facebook{
+    display: flex;
+    width:50px;
+    height:50px;
+    background-color:#FFF;
+    font-size:50px;
+    margin: 10px 10px 10px 10px;
+    border: 3px solid #183153;
+    border-radius:50px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fa-brands.fa-instagram{
+    display: flex;
+    width:50px;
+    height:50px;
+    font-size:45px;
+    border-radius:50px;
+    margin: 10px 10px 10px 10px;
+    color: #FFF;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+  }
+ 
 .copyright{
+    display: flex;
     font-size: 12px;
+    font-weight: 600;
+    width: 100%;
+    justify-content: right;
+}
+
+.end-text{
+    display: flex;
+    font-family: 'Harashi Free';
+    font-size: 80px;
+    font-weight: 400;
+    width: 100%;
+    justify-content: left; 
+    margin-left: 20px;
 }
