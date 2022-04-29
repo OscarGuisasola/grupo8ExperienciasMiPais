@@ -75,7 +75,7 @@ experiencias para otras personas como regalo.
 
 El diseño de home ofrece un carrusel llamativo que nos muestra rápidamente situaciones en las que podemos estar. Nos parece interesante 
 que nos permita ver de cada experiencia una puntuación de los usuarios. Si bien en el home tenemos tanto un botón de búsqueda, como listas desplegables de opciones, creemos que otros sitios ofrecen una búsqueda más rápida.
-Sitio: ttps://www.bigbox.com.ar/regalos/aventura/box-adrenalina/ 
+Sitio: https://www.bigbox.com.ar/regalos/aventura/box-adrenalina/ 
  
  
 _Otros sitios de interés y que nos inspiraron a través de su arquitectura y armado:_
@@ -93,3 +93,4 @@ https://brandoncjohnson.com/
 https://quinntonharris.mystrikingly.com/ 
 
  
+--prueba para ver que como sale --
