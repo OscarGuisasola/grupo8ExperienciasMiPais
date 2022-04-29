@@ -1499,6 +1499,18 @@ p {
 
 /* aca arranca Ger */
 
+article{
+    display: block;
+}
+
+main article img{
+    width: 100%;
+    display: inline-block;
+    
+}
+
+
+
 
 
 
