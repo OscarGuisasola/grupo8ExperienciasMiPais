@@ -44,3 +44,11 @@ app.get('/productDetail', (req, res) =>{
 app.get('/productCart', (req, res) =>{
     res.sendFile(path.resolve('./views/productCart.html'))
 });
+
+app.get('/detalleTrekking', (req, res) =>{
+    res.sendFile(path.resolve('./views/detalleTrekking.html'))
+});
+
+app.get('/detalleMontanismo', (req, res) =>{
+    res.sendFile(path.resolve('./views/detalleMontanismo.html'))
+});
