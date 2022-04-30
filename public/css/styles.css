@@ -225,7 +225,7 @@ p {
     
   }
 
-  .fa-brands.fa-facebook{
+  .fa-brands.fa-facebok{
     display: flex;
     width:50px;
     height:50px;
@@ -498,11 +498,27 @@ p {
 
 /* aca arranca Oscar */
 
-
-
+.Carrito1{ 
+    margin-left: 25%;
+    margin-right: 25%;
+    display: inline;
+    text-align: center;
+    border: dashed;
+    font-size: 50px;
+    color: #efeaf3;
+    background-color: #54457F;
+    justify-content: center;
     
+}
 
-.card {
+.Carrito2{
+    font-size: 25px;
+    color: #54457F;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+     
+.card1{
     justify-content: space-between;
     border: violet ;
     display: flex;
@@ -521,19 +537,37 @@ p {
     padding: 15px, 10px, 5px, 5px;
     font-size: 25px;
     justify-content: left;
-    border-color: #720fbe;
+    border-color: #54457F;
     border: double;
  
 }
 
-.button {
-    font-style: italic; 
-    margin-bottom: 25px;
-    background-color: #050102e1;
-    color: rgb(187, 27, 174);
-    transition:all 0.5s;
-    cursor: pointer;
+.button1{
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #54457F;
+    border: 2px solid;
+    border-color:#060114;
+    position: relative;
 }
+
+.button1:before{
+content:"";
+position: absolute;
+top: 0px;
+left: 0px;
+width: 0px;
+height: 100%;
+background: rgba(255, 255, 255, 0.1);
+transition: all 1s ease;
+}
+
+.button1:hover:before{
+width: 100%;
+}
+
 
 
 
