@@ -276,10 +276,13 @@ p {
     width: 100%;
     justify-content: right;
 }
-
+@font-face {
+    font-family:fuente_1;
+    src: url(Harashi.ttf);
+}
 .end-text{
     display: flex;
-    font-family: 'Harashi Free';
+    font-family: 'fuente_1';
     color: #FFF;
     font-size: 80px;
     font-weight: 400;
