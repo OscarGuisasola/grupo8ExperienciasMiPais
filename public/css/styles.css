@@ -498,48 +498,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* aca arranca Oscar */
 
 .Carrito1{ 
@@ -577,6 +535,14 @@ p {
     width: 100%;
     justify-content: left;
 }
+
+.card1 img{
+    display: flex;
+    width: 180px;
+    justify-content: center;
+    
+}
+
 
 .cierre{
     box-sizing: border-box;
