@@ -1140,12 +1140,13 @@ width: auto;
     margin-top: 30px;
     
 }
-.form-button {
+.buttons {
     display: flex;
     flex-direction: row;
 justify-content: center;
 align-items: center;
 }
+
 .primary {
 margin-bottom: 20px;
 padding: 1.3em 3em;
