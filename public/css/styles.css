@@ -86,7 +86,7 @@ header, footer{
     display: flex;
     align-items: center;
     font-size: 18px;
-   }
+}
    
 .button-nav:hover {
  background: #a6c900;
@@ -114,6 +114,7 @@ header, footer{
     justify-content: space-between;
     width: 15%;
 }
+
 .nav-right ul{
     display: flex;
     
@@ -212,38 +213,39 @@ p {
 }
 
 .fa-brands.fa-whatsapp{
-    display: block;
-    width:50px;
-    height:50px;
+    display: flex;
+    width:30px;
+    height:30px;
     margin: 10px 10px 10px 10px;
     background-color:#25d366;
     color:#FFF;
     border-radius:50px;
     box-sizing: border-box;
     text-align:center;
-    font-size:50px;
-    
-  }
+    font-size:35px;
+    align-items: center;
+}
 
-  .fa-brands.fa-facebok{
+.fa-brands.fa-facebook-f{
     display: flex;
-    width:50px;
-    height:50px;
-    background-color:#FFF;
-    font-size:50px;
+    width:32px;
+    height:32px;
     margin: 10px 10px 10px 10px;
-    border: 3px solid #183153;
+    background:#04439b;
     border-radius:50px;
     box-sizing: border-box;
+    font-size:27px;
+    text-align:center;
     justify-content: center;
-    align-items: center;
-  }
+    border: 3px solid #04439b;
+    color: #fff;
+}
 
-  .fa-brands.fa-instagram{
+.fa-brands.fa-instagram{
     display: flex;
-    width:50px;
-    height:50px;
-    font-size:45px;
+    width:30px;
+    height:30px;
+    font-size:35px;
     border-radius:50px;
     margin: 10px 10px 10px 10px;
     color: #FFF;
@@ -258,15 +260,15 @@ p {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .info{
+.info{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     width: 60%;
-  }
+}
  
 .copyright{
     display: flex;
@@ -276,10 +278,12 @@ p {
     width: 100%;
     justify-content: right;
 }
+
 @font-face {
     font-family:fuente_1;
     src: url(Harashi.ttf);
 }
+
 .end-text{
     display: flex;
     font-family: 'fuente_1';
@@ -326,6 +330,7 @@ p {
     flex-direction: column;
     padding-bottom: 20px;
 }
+
 .text-s{
     margin-bottom: 10px;
     text-align: center;
