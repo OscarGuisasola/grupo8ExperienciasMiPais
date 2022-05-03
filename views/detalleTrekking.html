@@ -72,21 +72,64 @@
    
    
     <main>
-        
-        <article>
+        <article class="father">
+
+        <article class="block-1">
             <img
               src="images/trekking.jpg"
               alt="EXCURSION TREKKING"
               class="detalle_img"
             />
             <div class="main-article">
-              <p class="price">$95000.-</p>
-              <h4 class="Subtitle">TREKKING</h4>
+            <h4 class="Subtitle">TREKKING</h4>
             </div>
+            <br>
+        </article>
+       <article class="block-2">
             <div class= "description">De los diez trekking más espectaculares de Argentina</div>
-            <p> Es una de las expediciones más atractivas que ofrece el noroeste argentino.  Una experiencia profunda con la naturaleza y un recorrido milenario, transitando antiguos caminos originarios que se convierte en mágicos a medida que se los transita, paisajes de profundas quebradas, valles y pequeñas pampas. Pasarán del verde intenso de las selvas al paisaje desnudo de las altas montañas. Durante la marcha se avistarán cóndores surcando los cielos, manadas de guanacos y vicuñas.  
-                Se parte desde la Reserva de Biosfera de las Yungas, un entorno selvático con un alto valor en biodiversidad, atravesando distintos biotipos selváticos, hasta alcanzar los pastizales de altura, ascendiendo las altas montañas que separan las selvas de la Puna. Se visitan en esta aventura los poblados de San Francisco, San Lucas y se arriba a la zona de acampe conocida como el Abra El Potrero. Luego se continúa el ascenso hasta Molulo y más allá sobre las cumbres Yuto Pampa desde donde se parte hasta el punto más alto del recorrido, a 4010 msnm.Luego se desciende a la Quebrada de Humahuaca, llegando a Tilcara lo que marca el fin de la travesía.</p>
-          </article>
+            <p>Se parte desde la Reserva de Biosfera de las Yungas, un entorno selvático con un alto valor en biodiversidad, atravesando distintos biotipos selváticos, hasta alcanzar los pastizales de altura, ascendiendo las altas montañas que separan las selvas de la Puna. Se visitan en esta aventura los poblados de San Francisco, San Lucas y se arriba a la zona de acampe conocida como el Abra El Potrero. Luego se continúa el ascenso hasta Molulo y más allá sobre las cumbres Yuto Pampa desde donde se parte hasta el punto más alto del recorrido, a 4010 msnm.Luego se desciende a la Quebrada de Humahuaca, llegando a Tilcara lo que marca el fin de la travesía.</p>
+        </article>
+        <form
+        action="/"
+        method="post"
+        class="register"
+        enctype="multipart/form-data"
+      >
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" name="name" minlength="4" required />
+        </div>
+
+        <div class="form-group">
+          <label for="username">Apellido</label>
+          <input type="text" name="user" minlength="4" required />
+        </div>    
+        </div>
+
+        <div class="form-group">
+            <label for="username">DNI</label>
+            <input type="number" name="user" minlength="4" required />
+          </div>    
+          </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" minlength="4" required />
+        </div>
+        <br />
+        <div class="button">
+        <button type="submit" class="primary">Reservar</button>
+    </div>
+      </form>
+
+
+
+    </article>
+
+            <video controls>
+              <source src="videos/CerroBianco.mp4" type="video/mp4">
+            </video>
+
 
     </main>   
 
