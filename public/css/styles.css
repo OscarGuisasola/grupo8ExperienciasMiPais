@@ -435,8 +435,9 @@ article div.main-article-index{
 }
 .card-index{
     background-color: #fff;    
-    margin: 10px 0px;
+    margin: 30px 0px;
     width: 70%;
+    padding-bottom: 10px;
 }
 
 main section article.card-index img{
