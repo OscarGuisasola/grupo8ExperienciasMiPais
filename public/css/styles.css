@@ -521,7 +521,7 @@ p {
 
 .main-cart {
     background-image: url("/images/2.jpg");
-    width: 1000px;
+    width: 420px;
     border-radius: 55px;
 }
 
@@ -532,10 +532,10 @@ p {
     padding-bottom: 8px;
     padding-left: 12px;
     padding-right: 12px;
-    margin-top: 180px;
-    margin-left: 35%;
-    margin-right: 35%;
-    display: inline;
+    margin-top: 18px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
     border: dotted;
     border-radius: 40%;
     font-size: 30px;
@@ -544,47 +544,56 @@ p {
  }
 
 .Carrito2{
-    font-size: 19px;
+    font-size: 15px;
     color: #f6f4fa;
-    margin-left: 35%;
-    margin-right: 35%;
-    padding-top: 18px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 15px;
 }
-     
+
+
+.main article {
+    margin-left: 10px;
+}
+
 .card1{
     justify-content: space-between;
+    margin-left: 5px;
     border: violet ;
     display: flex;
     padding-top: 40px;
     padding-left: 35px;
-    font-size: 24px;
+    font-size: 15px;
     color: rgb(14, 12, 12);
-    font-weight: 60;
-    width: 100%;
+    font-weight: 30;
     justify-content: left;
 }
 
 .card1 img{
     display: flex;
-    width: 180px;
+    margin-right: 15px;
+    width: 50%;
+    height: 50%;
     justify-content: center;
-    
 }
-
 
 .cierre{
     box-sizing: content-box;
     border-color: #893dc2;
-    display: flow-root;
     font-size: 30px;
-    justify-content: center;
     border: double;
     padding-top: 5px;
-    margin: 85px;
+    margin: 3% ;
+}
+
+.description1 {
+    margin-left: 3%;
+}
+.priceTotal{
+    margin-left: 55%;
 }
 
 .button1{
-    
     width: 33.33%;
     background: linear-gradient(180deg,#5639a8 0,#8865e6);
     padding: 20px;
@@ -594,10 +603,10 @@ p {
     height: 70px;
     cursor: pointer;
     transition: .3s ease;
-    margin-top: 35px;
+    margin-top: 2px;
     margin-left: 35%;
     margin-right: 35%;
-    margin-bottom: 35px;
+    margin-bottom: 2px;
 }
 
 
@@ -2081,6 +2090,26 @@ main video{
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width:769px){
     .top-header-nav{
         display: flex;
@@ -2341,3 +2370,124 @@ main video{
         color: #fff;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* aca arrancan las @medias queries de Oscar */
+
+.main-cart {
+    background-image: url("/images/2.jpg");
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+.Carrito1{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 18px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    border: solid;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #efeaf3;
+    background-color: #54457F;
+ }
+
+.Carrito2{
+    font-size: 35px;
+    color: #f6f4fa;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 15px;
+}
+
+
+.main article {
+    margin-left: 25px;
+}
+
+.card1{
+    justify-content: space-between;
+    margin-left: 5px;
+    border: violet ;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 35px;
+    font-size: 20px;
+    color: rgb(14, 12, 12);
+    font-weight: 30;
+    justify-content: left;
+}
+
+.card1 img{
+    display: flex;
+    margin-right: 15px;
+    width: 15%;
+    height: 15%;
+    justify-content: center;
+}
+
+.cierre{
+    box-sizing: content-box;
+    border-color: #893dc2;
+    font-size: 30px;
+    border: double;
+    padding-top: 5px;
+    margin: 3% ;
+}
+
+.description1 {
+    margin-left: 33%;
+}
+.priceTotal{
+    margin-left: 55%;
+}
+
+.button1{
+    width: 20%;
+    background: linear-gradient(180deg,#5639a8 0,#8865e6);
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 53px;
+    height: 70px;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-top: 2px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 2px;
+}
+
+/*¨aca terminan las @medias queries de OSCAR */
+
