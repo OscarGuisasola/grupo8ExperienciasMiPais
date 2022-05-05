@@ -501,8 +501,9 @@ main section article img{
 
 .main-cart {
     background-image: url("/images/2.jpg");
-    width: 420px;
+    width: 410px;
     border-radius: 55px;
+    margin: 16px;    
 }
 
 .Carrito1{ 
@@ -532,9 +533,12 @@ main section article img{
 
 .main article {
     margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .card1{
+    background-color: #54457F;
     justify-content: space-between;
     margin-left: 5px;
     border: violet ;
@@ -561,7 +565,7 @@ main section article img{
     font-size: 30px;
     border: double;
     padding-top: 5px;
-    margin: 3% ;
+    margin: 10% ;
 }
 
 .description1 {
@@ -573,6 +577,7 @@ main section article img{
 
 .button1{
     width: 33.33%;
+    font-size: 18px;
     background: linear-gradient(180deg,#5639a8 0,#8865e6);
     padding: 20px;
     color: #fff;
