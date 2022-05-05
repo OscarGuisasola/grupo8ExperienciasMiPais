@@ -1112,6 +1112,8 @@ background-image: url('/images/fondo-montanas-al-atardecer-editada.jpg') ;
 margin-top: 100px;
 background-repeat: no-repeat;
 background-size: cover;
+border-radius: 5px;
+
 }
 .login h2 {
     font-size: 22px;
@@ -1201,6 +1203,7 @@ padding: 1.3em 3em;
     width: 400px;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 5px;
 }
 .registro-2 h2 {
     display: flex;
