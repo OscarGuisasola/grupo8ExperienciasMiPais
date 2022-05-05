@@ -1512,31 +1512,40 @@ border: solid 3px yellow;
 
 /* aca arranca Ger */
 
-main article .father{
-    display: block;
+main article.father{
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 
-main article .block-1{
-display: inline-block;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: space-between;
-width: 100%;
-}
-
-main article .block-2{
+main article.block-1{
     display: inline-block;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
 }
 
+main article.block-2{
+    display: initial;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
 
+h4.Subtitle-trekking{
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+}
+.description-p{
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+}
 
 main article img{
    display: inline-block; 
@@ -1560,15 +1569,137 @@ main video{
     height: 30%;
 }
 
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* formato tablets */
+
+@media (min-width:425px){
+
+    main article.father{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    main article.block-1{
+    display: inline-block;
+
+    }
+    .top-header-nav{
+        display: none;
+    }
+
+    main article.block-2{
+        display: initial;
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+    }
+    
+    h4.Subtitle-trekking{
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+        padding: 15px;
+        margin: 15px;
+    }
+    .description-p{
+        width: 100%;
+        padding: 15px;
+        margin: 15px;
+    }
+    
+    main article img{
+       display: inline-block; 
+        width: 100%;
+    }
+    
+    main article .description{
+        display: inline-block;
+        
+    }
+    
+    div .button{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    main video{
+        width: 100%;
+        height: 30%;
+    }
 
 
 
 
+}
+
+/* formato Desktops */
+
+@media (min-width:963px){
+
+    main article.father{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    main article.block-1{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    }
+    main article.block-2{
+        box-sizing: border-box;
+        display: initial;
+        width: 47%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    h4.Subtitle-trekking{
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+        padding: 15px;
+        margin: 15px;
+    }
+    .description-p{
+        width: 100%;
+        padding: 15px;
+        margin: 15px;
+    }
+    main article img{
+       display: inline-block; 
+        width: 100%;
+    }
+    main article .description{
+        display: inline-block;
+        
+    }
+    div .button{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    main video{
+        width: 100%;
+        height: 30%;
+    }
 
 
 
-
-
+    
+}
 
 
 
