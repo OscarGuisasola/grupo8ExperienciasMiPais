@@ -501,7 +501,7 @@ main section article img{
 
 .main-cart {
     background-image: url("/images/2.jpg");
-    width: 410px;
+    width: 390px;
     border-radius: 55px;
     margin: 16px;    
 }
@@ -518,7 +518,7 @@ main section article img{
     display: flex;
     border: dotted;
     border-radius: 40%;
-    font-size: 30px;
+    font-size: 20px;
     color: #efeaf3;
     background-color: #54457F;
  }
@@ -537,47 +537,54 @@ main section article img{
     margin-top: 10px;
 }
 
-.card1{
+.card1w{
     background-color: #54457F;
-    justify-content: space-between;
     margin-left: 5px;
-    border: violet ;
+    margin-right: 10px;
     display: flex;
     padding-top: 40px;
-    padding-left: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
     font-size: 15px;
     color: rgb(14, 12, 12);
     font-weight: 30;
     justify-content: left;
 }
 
-.card1 img{
+.card1w img{
     display: flex;
-    margin-right: 15px;
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-}
+    width: 100%;
+    height: 100%;
+   }
 
-.cierre{
+.cierrew{
     box-sizing: content-box;
     border-color: #893dc2;
     font-size: 30px;
     border: double;
-    padding-top: 5px;
-    margin: 10% ;
+    padding-top: 0px;
+    margin: 5% ;
 }
 
-.description1 {
+.descriptionw {
     margin-left: 3%;
 }
-.priceTotal{
+.priceTotal1{
     margin-left: 55%;
 }
 
-.button1{
+.bajadaw{ 
+    font-size: 8x;
+    color: black;
+    font-variant: small-caps;
+
+
+}
+
+.button1w{
     width: 33.33%;
-    font-size: 18px;
+    font-size: 17px;
     background: linear-gradient(180deg,#5639a8 0,#8865e6);
     padding: 20px;
     color: #fff;
@@ -2069,6 +2076,113 @@ main video{
         justify-content: space-between;
         width: 100%;
     }
+/* aca arranca Oscar en 425*/
+
+.main-cart {
+    background-image: url("/images/2.jpg");
+    width: 730px;
+    border-radius: 55px;
+    margin: 16px;    
+}
+
+.Carrito1{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 32px;
+    margin-top: 18px;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    border: dotted;
+    border-radius: 40%;
+    font-size: 30px;
+    color: #efeaf3;
+    background-color: #54457F;
+ }
+
+.Carrito2{
+    font-size: 15px;
+    color: #f6f4fa;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 15px;
+}
+
+.main article {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.card1w{
+    background-color: #54457F;
+    margin-left: 5px;
+    margin-right: 10px;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: white;
+    font-weight: 30;
+    justify-content: left;
+}
+
+.card1w img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+   }
+
+.cierrew{
+    box-sizing: content-box;
+    border-color: violet;
+    font-size: 30px;
+    border: double;
+    padding-top: 0px;
+    margin: 5% ;
+    color: white;
+}
+
+.descriptionw {
+    margin-left: 3%;
+    color: white;
+}
+.priceTotal1{
+    margin-left: 55%;
+    color: white;
+}
+
+.bajadaw{ 
+    font-size: 8x;
+    color: white;
+    font-variant: small-caps;
+
+
+}
+
+.button1w{
+    width: 33.33%;
+    font-size: 17px;
+    background: linear-gradient(180deg,#5639a8 0,#8865e6);
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 53px;
+    height: 70px;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-top: 2px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 2px;
+}
+ /* termina oscar en 425 */
+
+
 }
 
 
@@ -2087,11 +2201,177 @@ main video{
 
 
 
-
-
-
-
 @media (min-width:769px){
+
+
+    /*@medias queries de Oscar 769 */
+
+    .main-cart {
+        background-image: url("/images/2.jpg");
+        width: 95%;
+        border-radius: 55px;
+    }
+    
+    
+    .Carrito1{ 
+        font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 28px;
+        padding-right: 12px;
+        margin-top: 18px;
+        margin-left: 15%;
+        margin-right: 15%;
+        display: flex;
+        border: solid;
+        border-radius: 30%;
+        font-size: 50px;
+        color: #bcb8be;
+        background-color: #54457F;
+       
+     }
+    
+    .Carrito2{
+        font-size: 20px;
+        color: #f6f4fa;
+        margin-left: 15%;
+        margin-right: 15%;
+        padding-top: 15px;
+    }
+    
+    
+    .main article {
+        margin-left: 25px;
+    }
+    
+    .card1w{
+        justify-content: space-between;
+        margin-left: 5px;
+        border: violet ;
+        display: flex;
+        padding-top: 40px;
+        padding-left: 35px;
+        font-size: 20px;
+        color: rgb(14, 12, 12);
+        font-weight: 30;
+        justify-content: left;
+        color: rgb(248, 244, 244);
+    }
+    
+    .card1w img{
+        display: flex;
+        margin-right: 15px;
+        width: 60%;
+        height: 60%;
+        justify-content: center;
+    }
+    
+    .bajadaw {
+    font-size: 16px;
+    }
+    
+    .cierrew{
+        box-sizing: content-box;
+        border-color: #893dc2;
+        color: rgb(248, 244, 244);
+        font-size: 39px;
+        border: double;
+        padding-top: 5px;
+        margin-left: 15% ;
+        margin-right: 15%;
+    }
+    
+    .description1w {
+        margin-left: 45%;
+    }
+    .priceTotalw{
+        margin-left: 45%;
+    }
+    
+    .button1w{
+        width: 20%;
+        height: 70px;
+        padding: 15px;
+        color: #fff;
+        border-radius: 53px;
+        cursor: pointer;
+        transition: .3s ease;
+        margin-top: 2px;
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-bottom: 2px;
+        font-size: 20px;
+    }
+    
+    /* terminan las @medias queries de OSCAR 963 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
@@ -2502,7 +2782,7 @@ main video{
 
 
 
-    /* aca arrancan las @medias queries de Oscar */
+    /*@medias queries de Oscar 963 */
 
 .main-cart {
     background-image: url("/images/2.jpg");
@@ -2515,21 +2795,22 @@ main video{
     font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 12px;
+    padding-left: 28px;
     padding-right: 12px;
     margin-top: 18px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     display: flex;
     border: solid;
-    border-radius: 50%;
-    font-size: 50px;
-    color: #efeaf3;
+    border-radius: 30%;
+    font-size: 33px;
+    color: #bcb8be;
     background-color: #54457F;
+   
  }
 
 .Carrito2{
-    font-size: 35px;
+    font-size: 25px;
     color: #f6f4fa;
     margin-left: 15%;
     margin-right: 15%;
@@ -2541,7 +2822,7 @@ main video{
     margin-left: 25px;
 }
 
-.card1{
+.card1w{
     justify-content: space-between;
     margin-left: 5px;
     border: violet ;
@@ -2552,49 +2833,55 @@ main video{
     color: rgb(14, 12, 12);
     font-weight: 30;
     justify-content: left;
+    color: rgb(248, 244, 244);
 }
 
-.card1 img{
+.card1w img{
     display: flex;
     margin-right: 15px;
-    width: 15%;
-    height: 15%;
+    width: 50%;
+    height: 50%;
     justify-content: center;
 }
 
-.cierre{
+.bajadaw {
+font-size: 24px;
+}
+
+.cierrew{
     box-sizing: content-box;
     border-color: #893dc2;
-    font-size: 30px;
+    color: rgb(248, 244, 244);
+    font-size: 39px;
     border: double;
     padding-top: 5px;
-    margin: 3% ;
+    margin-left: 15% ;
+    margin-right: 15%;
 }
 
-.description1 {
-    margin-left: 33%;
+.description1w {
+    margin-left: 45%;
 }
-.priceTotal{
-    margin-left: 55%;
+.priceTotalw{
+    margin-left: 45%;
 }
 
-.button1{
+.button1w{
     width: 20%;
-    background: linear-gradient(180deg,#5639a8 0,#8865e6);
+    height: 70px;
     padding: 20px;
     color: #fff;
-    text-transform: uppercase;
     border-radius: 53px;
-    height: 70px;
     cursor: pointer;
     transition: .3s ease;
     margin-top: 2px;
     margin-left: 35%;
     margin-right: 35%;
     margin-bottom: 2px;
+    font-size: 20px;
 }
 
-/*¨aca terminan las @medias queries de OSCAR */
+/* terminan las @medias queries de OSCAR 963 */
 
 
 }
