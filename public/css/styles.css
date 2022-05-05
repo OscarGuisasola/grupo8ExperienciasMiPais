@@ -427,7 +427,7 @@ p{
     margin: 0 auto;
 }
 
-article div.main-article{
+article div.main-article-index{
     width: 100%;
     border-top: 1px solid #ebebeb;
     padding: 15px;
@@ -442,6 +442,7 @@ main section article{
 main section article img{
     display: flex;
     justify-content: center;
+    height: 130px;
 }
 
 
@@ -2284,12 +2285,13 @@ main video{
         width: 100%;
         justify-content: right;
     }
+  
     .search-main{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 200px;
+        height: 250px;
         background-color: #54457F;
     }
     .image-search{
@@ -2298,7 +2300,7 @@ main video{
     }
     .image-search img{
         width: 100%;
-        height: 200px;
+        height: 250px;
     }
     .option-province,
     .option-service{
@@ -2334,8 +2336,12 @@ main video{
     .search-button{
         font-size: 16px;
     }
+    .products-index{
+        display: flex;
+        justify-content: space-between;
+    }
     .products-index .card-index{
-        width: 22%;
+        width: 28%;
     }
     .price-index{
         display:block;
