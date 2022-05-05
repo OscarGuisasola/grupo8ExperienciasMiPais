@@ -433,13 +433,13 @@ article div.main-article-index{
     padding: 15px;
     position: relative;
 }
-main section article{
+.card-index{
     background-color: #fff;    
     margin: 10px 0px;
     width: 70%;
 }
 
-main section article img{
+main section article.card-index img{
     display: flex;
     justify-content: center;
     height: 130px;
