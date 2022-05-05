@@ -1634,14 +1634,17 @@ main video{
         flex-wrap: wrap;
     }
     main article.block-1{
+    box-sizing: border-box;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     width: 50%;
     }
     main article.block-2{
+        box-sizing: border-box;
         display: initial;
-        width: 50%;
+        width: 47%;
         text-align: center;
         align-items: center;
     }
