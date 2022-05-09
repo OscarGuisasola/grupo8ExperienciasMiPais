@@ -508,39 +508,28 @@ main section article.card-index img{
     margin: 16px;    
 }
 
-.Carrito1{ 
-    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
-    padding-top: 8px;
-    padding-bottom: 8px;
+.Carrito1 {
     padding-left: 12px;
     padding-right: 12px;
     margin-top: 18px;
-    margin-left: 15%;
-    margin-right: 15%;
     display: flex;
-    border: dotted;
-    border-radius: 40%;
-    font-size: 20px;
+    font-size: 30px;
     color: #efeaf3;
     background-color: #54457F;
- }
-
+}
 .Carrito2{
     font-size: 15px;
     color: #f6f4fa;
     margin-left: 15%;
-    margin-right: 15%;
-    padding-top: 15px;
-}
+    }
 
-.main article {
+.main-articleOG {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
 }
 
 .card1w{
-    background-color: #54457F;
     margin-left: 5px;
     margin-right: 10px;
     display: flex;
@@ -554,11 +543,13 @@ main section article.card-index img{
     justify-content: left;
 }
 
-.card1w img{
+.card1w img {
     display: flex;
     width: 100%;
     height: 100%;
-   }
+    width: 200px;
+    height: 150px;
+}
 
 .cierrew{
     box-sizing: content-box;
@@ -595,12 +586,16 @@ main section article.card-index img{
     height: 70px;
     cursor: pointer;
     transition: .3s ease;
-    margin-top: 2px;
     margin-left: 35%;
     margin-right: 35%;
     margin-bottom: 2px;
 }
 
+.button1w.before{
+    border-radius: 1px;
+    margin-top: 2px;
+
+}
 
 
 
@@ -2063,39 +2058,28 @@ main video{
     margin: 16px;    
 }
 
-.Carrito1{ 
-    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 12px;
-    padding-right: 32px;
-    margin-top: 18px;
-    margin-left: 35%;
-    margin-right: 35%;
+.Carrito1 {
     display: flex;
-    border: dotted;
-    border-radius: 40%;
     font-size: 30px;
     color: #efeaf3;
     background-color: #54457F;
- }
+}
 
 .Carrito2{
     font-size: 15px;
     color: #f6f4fa;
     margin-left: 15%;
     margin-right: 15%;
-    padding-top: 15px;
-}
+    }
 
-.main article {
+.main-articleOG {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+    width: 70px;
 }
 
 .card1w{
-    background-color: #54457F;
     margin-left: 5px;
     margin-right: 10px;
     display: flex;
@@ -2111,8 +2095,8 @@ main video{
 
 .card1w img{
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
    }
 
 .cierrew{
@@ -2135,7 +2119,7 @@ main video{
 }
 
 .bajadaw{ 
-    font-size: 8x;
+    font-size: 15px;
     color: white;
     font-variant: small-caps;
 
@@ -2511,24 +2495,12 @@ main video{
     }
     
     
-    .Carrito1{ 
-        font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 28px;
-        padding-right: 12px;
-        margin-top: 18px;
-        margin-left: 15%;
-        margin-right: 15%;
+    .Carrito1 { 
         display: flex;
-        border: solid;
-        border-radius: 30%;
-        font-size: 50px;
-        color: #bcb8be;
+        font-size: 30px;
+        color: #efeaf3;
         background-color: #54457F;
-       
-     }
-    
+    }
     .Carrito2{
         font-size: 20px;
         color: #f6f4fa;
@@ -3048,26 +3020,12 @@ main video{
 }
 
 
-.Carrito1{ 
-    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 28px;
-    padding-right: 12px;
-    margin-top: 18px;
-    margin-left: 25%;
-    margin-right: 25%;
-    display: flex;
-    border: solid;
-    border-radius: 30%;
+.Carrito1 {
     font-size: 33px;
-    color: #bcb8be;
     background-color: #54457F;
-   
- }
+}
 
 .Carrito2{
-    font-size: 25px;
     color: #f6f4fa;
     margin-left: 15%;
     margin-right: 15%;
@@ -3075,7 +3033,7 @@ main video{
 }
 
 
-.main article {
+.main-articleOG {
     margin-left: 25px;
 }
 
