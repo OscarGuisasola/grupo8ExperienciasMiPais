@@ -52,3 +52,4 @@ app.get('/detalleTrekking', (req, res) =>{
 app.get('/detalleMontanismo', (req, res) =>{
     res.sendFile(path.resolve('./views/detalleMontanismo.html'))
 });
+
