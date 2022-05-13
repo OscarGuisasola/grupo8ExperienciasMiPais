@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include ("partials/head") %> 
+
+<body>
+    <header class="main-navbar">
+        <div class="logo">
+            <a href="/home"><img src="/images/puntoLimite-Logo.png" alt="Logo de Punto Limite"></a>
+        </div>
+            
+        <nav class="top-header-nav">
+            
+            <ul class="nav-center">
+                <li><a href="#">
+                    <button class="button-nav">
+                    <span class="text-button-nav">Nosotros</span>
+                    </button> 
+                </a></li>
+                <li><a href="#" class="a-button">
+                    <button class="button-nav">
+                    <span class="text-button-nav">Equipo</span>
+                    </button class="button-nav"> 
+                </a></li>
+                <li><a href="#">
+                    <button class="button-nav">
+                    <span class="text-button-nav">Hospedaje</span>
+                    </button> 
+                </a></li>
+                <li><a href="#">
+                    <button class="button-nav">
+                    <span class="text-button-nav">Aventura</span>
+                    </button> 
+                </a></li>
+            </ul>
+            
+        </nav>  
+        
+        <div class="nav-right">
+            <ul class="top-nav-right">
+                <li><a href="#"><i class="fa-solid fa-comment-dots"></i> Contacto </a></li>
+                <li><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
+            </ul>
+            <ul class="botton-right-navbar">
+                <li><a href="#"><i class="fa-solid fa-user"></i> Mi usuario </a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+            <div class="burger-menu">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+    </header>
+   
+   
+    <main>
+        <section class="search-main">
+            <div class="search">
+                <form action="#" method="post"class="province">
+                    <div class="text-s">
+                        <label class="search-text"> ¿Dónde viajas? </label>
+                    </div>
+                    <select class="option-province" name="provincias" id="provincias">
+                        <option value="todas">Todas...</option>
+                        <option value="bsas">Buenos Aires</option>
+                        <option value="chub">Chubut</option>
+                        <option value="cord">Córdoba</option>
+                        <option value="juju">Jujuy</option>
+                        <option value="rioj">La Rioja</option>
+                        <option value="mendo">Mendoza</option>
+                        <option value="misio">Misiones</option>
+                        <option value="neuq">Neuquén</option>
+                        <option value="rneg">Río Negro</option>
+                        <option value="scru">Santa Cruz</option>
+                        <option value="tdfu">Tierra del Fuego</option>
+                    </select>
+                </form>
+                <form action="#" method="post"class="service">
+                    <div class="text-s">
+                        <label class="search-text"> ¿Qué hacer? </label>
+                    </div>
+                    <select class="option-service" name="service" id="service">
+                        <option value="todos">Todos...</option>
+                        <option value="helicoptero">Viaje en helicóptero</option>
+                        <option value="kayack">Kayack</option>
+                        <option value="trekking">Trekking</option>
+                        <option value="parapente">Parapente</option>
+                        <option value="buceo">Buceo</option>
+                        <option value="mountain-bike">Mountain Bike</option>
+                        <option value="rappel">Rappel</option>
+                        <option value="tirolesa">Tirolesa</option>
+                        <option value="escalada">Escalada</option>
+                    </select>
+                </form>
+                <div class="search-form">
+                    <button type="submit" class="search-button"> Buscar </button>
+                </div>
+            </div>
+            <div class="image-search">
+                <img src="/images/rafting.jpg" alt="PuntoLimite">
+            </div>
+        </section>
+            
+        <section class="most-visits"> 
+            <h3>Aventuras más visitadas</h3>
+            <div class="products-index">
+                <article class="card-index">
+                    <a href="/detalleTrekking"><img src="/images/trekking.jpg" alt="trekking" class="product_img"></a>
+                    <div class="main-article-index">
+                        <h4 class="description-index"> Trekking</h4>
+                        <div class="description-like-index">
+                            <p class="province-trip"> Bariloche</p>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="price-info-index">
+                            <p class="price-index"> $8.500</p>
+                            <p class="info-index"><a href="/detalleTrekking"> + info </a></p>
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="card-index">
+                    <img src="/images/parapente.jpg" alt="parapente" class="product_img">
+                    <div class="main-article-index">
+                        <h4 class="description-index"> Vuelo en parapente</h4>
+                        <div class="description-like-index">
+                            <p class="province-trip"> Cordoba</p>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="price-info-index">
+                            <p class="price-index"> $15.770</p>
+                            <p class="info-index"><a href="#"> + info </a></p>
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="card-index">
+                    <img src="/images/rafting.jpg" alt="rafting" class="product_img">
+                    <div class="main-article-index">
+                        <h4 class="description-index"> Rafting</h4>
+                        <div class="description-like-index">
+                            <p class="province-trip"> Cataratas de Iguazú</p>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="price-info-index">
+                            <p class="price-index"> $8.640</p>
+                            <p class="info-index"><a href="#"> + info </a></p>
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="card-index">
+                    <img src="/images/HeliEsqui.jpg" alt="heliesqui" class="product_img">
+                    <div class="main-article-index">
+                        <h4 class="description-index"> Vuelo en helicóptero + Esquí</h4>
+                        <div class="description-like-index">
+                            <p class="province-trip"> Ushuaia</p>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="price-info-index">
+                            <p class="price-index"> $27.300</p>
+                            <p class="info-index"><a href="#"> + info </a></p>
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="card-index">
+                    <img src="/images/kayaking.jpg" alt="kayaking" class="product_img">
+                    <div class="main-article-index">
+                        <h4 class="description-index"> Kayaking</h4>
+                        <div class="description-like-index">
+                            <p class="province-trip"> Neuquén</p>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="price-info-index">
+                            <p class="price-index"> $10.900</p>
+                            <p class="info-index"><a href="#"> + info </a></p>
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="card-index">
+                    <img src="/images/jump.jpg" alt="jump" class="product_img">
+                    <div class="main-article-index">
+                        <h4 class="description-index"> Salto Bungee</h4>
+                        <div class="description-like-index">
+                            <p class="province-trip"> Salta</p>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="price-info-index">
+                            <p class="price-index"> $6.500</p>
+                            <p class="info-index"><a href="#"> + info </a></p>
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>   
+
+    </header>
+
+<%- include ("partials/footer") %>
+</body>
+
+</html>
