@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include ("partials/head") %>
+
+<body>
+    <%- include ("partials/header") %>
+   
+   
+    <main class="main-login">
+        <form action="/" method="POST" class="login">
+           
+        <section class="login">
+                <h2>Ingresar</h2>
+                <div class="form-login">
+                    <label for="username">Email</label>
+                    <input class="input-login" type="text" name="username" placeholder="ingrese su Email" required>
+                </div>
+            
+                <div class="form-login">   
+                    <label for="password"> Contraseña </label>
+                    <input class="input-login" type="password" name="password" placeholder="********" required minlength="8" maxlength="15">
+                </div>
+                <div class="checkbox-login">
+                    <input type="checkbox" name="remind" value="remind me"> Recordarme
+                </div>
+           
+
+            <section class="buttons">
+                <div class="form-button">
+                    <button type="submit" class="primary"> Enviar </button>
+                </div>
+                <div class="form-button">
+                    <button type="submit" class="primary"> Recuperar contraseña </button>
+                </div>
+            </section>
+        </section>
+            
+        </form>
+
+   
+
+    </main>   
+
+
+    <%- include ("partials/footer") %> 
+</body>
+
+</html>

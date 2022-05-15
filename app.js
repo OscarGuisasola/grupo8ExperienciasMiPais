@@ -1,13 +1,10 @@
 const express = require ('express');
 const app = express();
 const path = require('path');
-const mainRouter = require("./routes/main");
+const mainRouter = require("./routers/main");
 
 app.set("view engine", "ejs");
 app.set("views", path.resolve("views"))
-
-app.use("/", mainRouter)
-
 
 let port = 3030
 
@@ -15,39 +12,20 @@ app.listen (port, () => console.log("Servidor andando"))
 
 app.use(express.static('public'));
 
+app.use("/", mainRouter)
 
 
-app.get('/index', (req, res) =>{
-    res.sendFile(path.resolve('./views/index.html'))
-});
-
-app.get('/login', (req, res) =>{
-    res.sendFile(path.resolve('./views/login.html'))
-});
+app.get('/login', mainRouter)
 
 
+app.get('/register', mainRouter)
 
-app.get('/register', (req, res) =>{
-    res.sendFile(path.resolve('./views/register.html'))
-});
+app.post('/register', mainRouter)
 
-app.post('/register', (req, res) =>{
-    res.sendFile(path.resolve('./views/register.html'))
-});
 
-app.get('/productDetail', (req, res) =>{
-    res.sendFile(path.resolve('./views/productDetail'))
-});
+app.get('/productCart', mainRouter)
 
-app.get('/productCart', (req, res) =>{
-    res.sendFile(path.resolve('./views/productCart.html'))
-});
+app.get('/detalleTrekking', mainRouter)
 
-app.get('/detalleTrekking', (req, res) =>{
-    res.sendFile(path.resolve('./views/detalleTrekking.html'))
-});
 
-app.get('/detalleMontanismo', (req, res) =>{
-    res.sendFile(path.resolve('./views/detalleMontanismo.html'))
-});
 
