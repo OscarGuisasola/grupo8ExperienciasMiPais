@@ -561,6 +561,7 @@ main section article.card-index img{
                 
 .BasuraOG {
     color: #5639a8;
+    cursor: pointer;
     font-size: 80%;
     margin-left: 55%;
     margin-bottom: 2%;
@@ -659,12 +660,6 @@ main section article.card-index img{
     margin-bottom: 2px;
 }
 
-
-
-
-
-
-
 /* formato OG tablets */
 
 @media (min-width:425px) {
@@ -674,9 +669,7 @@ main section article.card-index img{
         opacity: 0.9;
         color: black;
         font-size: 40%;
-        border-radius: 0%;
-
-
+        border-radius: 0%;}
 
 .priceOG {
         font-size: 250%;
@@ -723,6 +716,7 @@ main section article.card-index img{
 
 .BasuraOG {
     color: #5639a8;
+    cursor: pointer;
     font-size: 90%;
     margin-left: 65%;
     margin-bottom: 2%;
