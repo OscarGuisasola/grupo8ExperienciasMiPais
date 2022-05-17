@@ -497,104 +497,166 @@ main section article.card-index img{
 
 
 
-
-
 /* aca arranca Oscar */
 
-.main-cart {
+.MiCarritoOG {
+    font-size: 22px;
+    text-align: center;
+    text-shadow: #000;
+    width: 70%;
+    display: flex;
+    color: white;
+    background-color: #3c2a6e;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.MiCarritoOG2{
+    font-size: 17px;
+    color: white;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.productsw{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    
+}
+
+.main-cartOG {
     background-image: url("/images/2.jpg");
-    width: 390px;
-    border-radius: 55px;
-    margin: 16px;    
+    opacity: 0.9;
+    color: black;
+    font-size: 40%;
+    border-radius: 8%;
 }
 
-.Carrito1 {
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-top: 18px;
+.main-articleOG{
+    width: 80%;
+    height: 80%;
+}
+
+.cardOG{
     display: flex;
-    font-size: 30px;
-    color: #efeaf3;
-    background-color: #54457F;
-}
-.Carrito2{
-    font-size: 15px;
-    color: #f6f4fa;
-    margin-left: 15%;
-    }
-
-.main-articleOG {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-.card1w{
-    margin-left: 5px;
-    margin-right: 10px;
-    display: flex;
-    padding-top: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 45px;
+    padding-right: 5px;
+    padding-bottom: 10px;
     font-size: 15px;
     color: rgb(14, 12, 12);
     font-weight: 30;
     justify-content: left;
+       
 }
 
-.card1w img {
+.cardOG img {
     display: flex;
-    width: 100%;
-    height: 100%;
-    width: 200px;
-    height: 150px;
+    width: 45%;
+    height: 45%;
+    align-items: center;
 }
-
-.cierrew{
-    box-sizing: content-box;
-    border-color: #893dc2;
-    font-size: 30px;
-    border: double;
-    padding-top: 0px;
-    margin: 5% ;
-}
-
-.descriptionw {
-    margin-left: 3%;
-}
-.priceTotal1{
+                
+.BasuraOG {
+    color: #5639a8;
+    font-size: 80%;
     margin-left: 55%;
+    margin-bottom: 2%;
+    text-align: right;
+ }
+
+.priceOG {
+    font-size: 100%;
+    color: black;
 }
 
-.bajadaw{ 
-    font-size: 8x;
+.descriptionOG {
+    font-size: 90%;
+    text-align: center;
+    color: black;
+}
+
+.bajadaOG{ 
+    font-size: 60%;
     color: black;
     font-variant: small-caps;
-
-
+    justify-content: center;
 }
+
+.codigoOG{
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    margin left: 33%;
+    margin right: 33%;
+}
+
+.form-loginOG {
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.cierreOG{
+    text-align: center;
+    border-color: #893dc2;
+    font-size: 20px;
+    border: double;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+
+.priceTotalOG{
+    font-size: 110%;
+    text-align: center;
+    color: black;
+}
+
+
 
 .button1w{
     width: 33.33%;
-    font-size: 17px;
+    font-size: 15px;
     background: linear-gradient(180deg,#5639a8 0,#8865e6);
-    padding: 20px;
     color: #fff;
     text-transform: uppercase;
-    border-radius: 53px;
-    height: 70px;
+    border-radius: 20%;
+    height: 40px;
     cursor: pointer;
     transition: .3s ease;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-bottom: 2px;
 }
 
-.button1w.before{
-    border-radius: 1px;
-    margin-top: 2px;
-
+.button2w{
+    width: 33.33%;
+    font-size: 15px;
+    background: white;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 20%;
+    height: 40px;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2px;
 }
 
 
@@ -603,28 +665,111 @@ main section article.card-index img{
 
 
 
+/* formato OG tablets */
+
+@media (min-width:425px) {
+
+    .main-cartOG {
+        background-image: url("/images/2.jpg");
+        opacity: 0.9;
+        color: black;
+        font-size: 40%;
+        border-radius: 0%;
 
 
 
+.priceOG {
+        font-size: 250%;
+        color: rgb(244, 242, 247);
+        text-align: center;
+}
+
+.descriptionOG {
+    display: flex;
+    font-size: 130%;
+    text-align: left;
+    color: white;
+}
+
+.bajadaOG{ 
+    display:inline-block;
+    font-size: 110%;
+    color: whitesmoke;
+    font-variant: small-caps;
+    justify-content: left;
+
+}    
+
+.cardOG{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 45px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        color: rgb(14, 12, 12);
+        font-weight: 30;
+        justify-content: left;
+           
+    }
+
+.cardOG img {
+        display: flex;
+        max-width: 45%;
+        max-height: 45%;
+        align-items: center;
+}
+
+.BasuraOG {
+    color: #5639a8;
+    font-size: 90%;
+    margin-left: 65%;
+    margin-bottom: 2%;
+    text-align: right;
+}
+
+.priceTotalOG{
+    font-size: 150%;
+    text-align: center;
+    color: white;
+}
+
+.codigoOG{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    margin left: 33.33%;
+    margin right: 33.33%;   
+}
+}
 
 
+/* formato OG Desktops */
 
+@media (min-width:963px){
 
+.cardOG img {
+    max-width: 45%;
+    max-height: 45%;
+    align-items: center;
+}
 
+.priceOG {
+    display: flex;
+    font-size: 100%;
+    color: rgb(244, 242, 247);
+    text-align: center;
+}
 
+.priceTotalOG{
+    font-size: 170%;
+    text-align: center;
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -2059,100 +2204,6 @@ main video{
         justify-content: space-between;
         width: 100%;
     }
-/* aca arranca Oscar en 425*/
-
-.main-cart {
-    background-image: url("/images/2.jpg");
-    width: 730px;
-    border-radius: 55px;
-    margin: 16px;    
-}
-
-.Carrito1 {
-    display: flex;
-    font-size: 30px;
-    color: #efeaf3;
-    background-color: #54457F;
-}
-
-.Carrito2{
-    font-size: 15px;
-    color: #f6f4fa;
-    margin-left: 15%;
-    margin-right: 15%;
-    }
-
-.main-articleOG {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    width: 70px;
-}
-
-.card1w{
-    margin-left: 5px;
-    margin-right: 10px;
-    display: flex;
-    padding-top: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    font-size: 35px;
-    color: white;
-    font-weight: 30;
-    justify-content: left;
-}
-
-.card1w img{
-    display: flex;
-    width: 70%;
-    height: 70%;
-   }
-
-.cierrew{
-    box-sizing: content-box;
-    border-color: violet;
-    font-size: 30px;
-    border: double;
-    padding-top: 0px;
-    margin: 5% ;
-    color: white;
-}
-
-.descriptionw {
-    margin-left: 3%;
-    color: white;
-}
-.priceTotal1{
-    margin-left: 55%;
-    color: white;
-}
-
-.bajadaw{ 
-    font-size: 15px;
-    color: white;
-    font-variant: small-caps;
-
-
-}
-
-.button1w{
-    width: 33.33%;
-    font-size: 17px;
-    background: linear-gradient(180deg,#5639a8 0,#8865e6);
-    padding: 20px;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 53px;
-    height: 70px;
-    cursor: pointer;
-    transition: .3s ease;
-    margin-top: 2px;
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-bottom: 2px;
-}
- /* termina oscar en 425 */
 
 
     .top-header-nav{
@@ -2493,98 +2544,6 @@ main video{
 
 
 
-@media (min-width:769px){
-
-
-    /*@medias queries de Oscar 769 */
-
-    .main-cart {
-        background-image: url("/images/2.jpg");
-        width: 95%;
-        border-radius: 55px;
-    }
-    
-    
-    .Carrito1 { 
-        display: flex;
-        font-size: 30px;
-        color: #efeaf3;
-        background-color: #54457F;
-    }
-    .Carrito2{
-        font-size: 20px;
-        color: #f6f4fa;
-        margin-left: 15%;
-        margin-right: 15%;
-        padding-top: 15px;
-    }
-    
-    
-    .main article {
-        margin-left: 25px;
-    }
-    
-    .card1w{
-        justify-content: space-between;
-        margin-left: 5px;
-        border: violet ;
-        display: flex;
-        padding-top: 40px;
-        padding-left: 35px;
-        font-size: 20px;
-        color: rgb(14, 12, 12);
-        font-weight: 30;
-        justify-content: left;
-        color: rgb(248, 244, 244);
-    }
-    
-    .card1w img{
-        display: flex;
-        margin-right: 15px;
-        width: 60%;
-        height: 60%;
-        justify-content: center;
-    }
-    
-    .bajadaw {
-    font-size: 16px;
-    }
-    
-    .cierrew{
-        box-sizing: content-box;
-        border-color: #893dc2;
-        color: rgb(248, 244, 244);
-        font-size: 39px;
-        border: double;
-        padding-top: 5px;
-        margin-left: 15% ;
-        margin-right: 15%;
-    }
-    
-    .description1w {
-        margin-left: 45%;
-    }
-    .priceTotalw{
-        margin-left: 45%;
-    }
-    
-    .button1w{
-        width: 20%;
-        height: 70px;
-        padding: 15px;
-        color: #fff;
-        border-radius: 53px;
-        cursor: pointer;
-        transition: .3s ease;
-        margin-top: 2px;
-        margin-left: 35%;
-        margin-right: 35%;
-        margin-bottom: 2px;
-        font-size: 20px;
-    }
-    
-    /* terminan las @medias queries de OSCAR 769 */
-}
 
 
 
@@ -2910,203 +2869,5 @@ main video{
           margin-left: 50%;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*@medias queries de Oscar 963 */
-
-.main-cart {
-    background-image: url("/images/2.jpg");
-    width: 100%;
-    border-radius: 25px;
-}
-
-
-.Carrito1 {
-    font-size: 33px;
-    background-color: #54457F;
-}
-
-.Carrito2{
-    color: #f6f4fa;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-top: 15px;
-}
-
-
-.main-articleOG {
-    margin-left: 25px;
-}
-
-.card1w{
-    justify-content: space-between;
-    margin-left: 5px;
-    border: violet ;
-    display: flex;
-    padding-top: 40px;
-    padding-left: 35px;
-    font-size: 20px;
-    color: rgb(14, 12, 12);
-    font-weight: 30;
-    justify-content: left;
-    color: rgb(248, 244, 244);
-}
-
-.card1w img{
-    display: flex;
-    margin-right: 15px;
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-}
-
-.bajadaw {
-font-size: 24px;
-}
-
-.cierrew{
-    box-sizing: content-box;
-    border-color: #893dc2;
-    color: rgb(248, 244, 244);
-    font-size: 39px;
-    border: double;
-    padding-top: 5px;
-    margin-left: 15% ;
-    margin-right: 15%;
-}
-
-.description1w {
-    margin-left: 45%;
-}
-.priceTotalw{
-    margin-left: 45%;
-}
-
-.button1w{
-    width: 20%;
-    height: 70px;
-    padding: 20px;
-    color: #fff;
-    border-radius: 53px;
-    cursor: pointer;
-    transition: .3s ease;
-    margin-top: 2px;
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-bottom: 2px;
-    font-size: 20px;
-}
-
-/* terminan las @medias queries de OSCAR 963 */
-
 }
 
