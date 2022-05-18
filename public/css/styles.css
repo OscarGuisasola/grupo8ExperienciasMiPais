@@ -1688,9 +1688,14 @@ main article.landscape-frame{
     display: flex;
     width: 100%;
     height: 50px;
-    background-color: grey;
 }
 
+main.background-gm {
+    background-repeat: no-repeat;
+    background-image: url('../images/fondoMain.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 main article.father{
     display: flex;
@@ -1878,7 +1883,7 @@ main video{
 
 .container-video{
     justify-content: center;
-    background-color: black;
+   
     display: flex;
     align-items: center;
 }
