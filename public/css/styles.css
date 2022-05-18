@@ -504,19 +504,10 @@ main section article.card-index img{
     text-align: center;
     text-shadow: #000;
     width: 70%;
-    display: flex;
     color: white;
-    background-color: #3c2a6e;
     margin-left: 10%;
     margin-right: 10%;
     
-}
-
-.MiCarritoOG2{
-    font-size: 17px;
-    color: white;
-    text-align: left;
-    margin-left: 10%;
 }
 
 .productsw{
@@ -530,7 +521,7 @@ main section article.card-index img{
     opacity: 0.9;
     color: black;
     font-size: 40%;
-    border-radius: 8%;
+    border-radius: 3%;
 }
 
 .main-articleOG{
@@ -543,13 +534,10 @@ main section article.card-index img{
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 45px;
-    padding-right: 5px;
     padding-bottom: 10px;
     font-size: 15px;
     color: rgb(14, 12, 12);
-    font-weight: 30;
-    justify-content: left;
-       
+    font-weight: 30;      
 }
 
 .cardOG img {
@@ -561,11 +549,10 @@ main section article.card-index img{
                 
 .BasuraOG {
     color: #5639a8;
+    font-size: 70%;
     cursor: pointer;
-    font-size: 80%;
     margin-left: 55%;
-    margin-bottom: 2%;
-    text-align: right;
+    
  }
 
 .priceOG {
@@ -664,7 +651,17 @@ main section article.card-index img{
 
 @media (min-width:425px) {
 
-    .main-cartOG {
+.MiCarritoOG {
+        font-size: 42px;
+        text-align: center;
+        text-shadow: #000;
+        width: 70%;
+        color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+.main-cartOG {
         background-image: url("/images/2.jpg");
         opacity: 0.9;
         color: black;
@@ -698,13 +695,11 @@ main section article.card-index img{
         flex-direction: row;
         flex-wrap: wrap;
         padding-left: 45px;
-        padding-right: 5px;
         padding-bottom: 10px;
         font-size: 15px;
         color: rgb(14, 12, 12);
         font-weight: 30;
-        justify-content: left;
-           
+                  
     }
 
 .cardOG img {
@@ -716,11 +711,10 @@ main section article.card-index img{
 
 .BasuraOG {
     color: #5639a8;
+    font-size: 100%;
     cursor: pointer;
-    font-size: 90%;
     margin-left: 65%;
-    margin-bottom: 2%;
-    text-align: right;
+    
 }
 
 .priceTotalOG{
@@ -1686,17 +1680,17 @@ border: solid 3px yellow;
 
 
 
+
+
 /* aca arranca Ger */
 
 main article.landscape-frame{
     display: flex;
     width: 100%;
-    height: 100px;
+    height: 50px;
+    background-color: grey;
 }
 
-main article.landscape-frame{
-    
-}
 
 main article.father{
     display: flex;
@@ -1882,7 +1876,12 @@ main video{
         height: 30%;
     }
 
-
+.container-video{
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
 
     
 }
