@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include ("../partials/head") %> 
+
+<body>
+    <%- include ("../partials/header") %> 
+
+    <main class="createProducts">
+        <form action="/" method="POST" class="register" enctype='multipart/form-data'>
+        <section class="createNewProduct">
+            <h2>Registro de productos </h2>
+            <div class="form-create-product">
+                <label for="newProduct-input"> Nombre del producto </label>
+                <input class="input-product" type="text" name="name-createProduct" placeholder="Ej: Trekking en El Bolson" required minlength="4">
+            </div>
+            <div class="form-create-product">
+                <label for="newProduct-input"> Provincia </label>
+                <input class="input-product" type="text" name="province-createProduct" placeholder="Ej: Río Negro" required minlength="4">
+            </div>
+            <div class="form-create-product">
+                <label for="newProduct-input"> Detalle </label>
+                <input class="input-product" type="text" name="detail-createProduct" placeholder="Ej: Sobre qué trata la excursión" required minlength="4">
+            </div>
+            <div class="form-create-product">
+                <label for="newProduct-input"> Precio </label>
+                <input class="input-product" type="text" name="price-createProduct" placeholder="Ej: $ 15.2570" required minlength="4">
+            </div>
+            <div class="form-create-product">
+                <label for="newProduct-input"> Categoría </label>
+                <input class="input-product" type="text" name="category-createProduct" placeholder="Ej: Trekking" required minlength="4">
+            </div>
+            <div class="form-create-product">
+                <label for="newProduct-input"> Subcategoría </label>
+                <input class="input-product" type="text" name="subcategory-createProduct" placeholder="Ej: Adulto / Niño" required minlength="4">
+            </div>
+            <div class="form-register">   
+                <label for="img"> Foto de excursión </label>
+                <input type="file" name="img-createProduct" accept=".jpg, .png">
+            </div>
+            <div class="button">
+                <button type="submit" class="primary">Registrar</button>
+            </div>
+        </section>
+
+    
+<%- include ("../partials/footer") %>
+</body>
+
+</html>
