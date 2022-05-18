@@ -1686,17 +1686,17 @@ border: solid 3px yellow;
 
 
 
+
+
 /* aca arranca Ger */
 
 main article.landscape-frame{
     display: flex;
     width: 100%;
-    height: 100px;
+    height: 50px;
+    background-color: grey;
 }
 
-main article.landscape-frame{
-    
-}
 
 main article.father{
     display: flex;
@@ -1882,7 +1882,12 @@ main video{
         height: 30%;
     }
 
-
+.container-video{
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
 
     
 }
