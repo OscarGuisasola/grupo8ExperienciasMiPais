@@ -9,5 +9,4 @@ router.post("/register", mainController.register)
 router.get("/productCart", mainController.productCart)
 router.get("/detalleTrekking", mainController.detalleTrekking)
 
-
 module.exports = router;

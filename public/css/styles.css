@@ -446,8 +446,14 @@ main section article.card-index img{
     height: 130px;
 }
 
-
-
+.form-products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
 
 
 
