@@ -647,6 +647,36 @@ main section article.card-index img{
     margin-bottom: 2px;
 }
 
+.primaryOG {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.primaryOG:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.primaryOG:active {
+    transform: translateY(-1px)
+}
+
 /* formato OG tablets */
 
 @media (min-width:425px) {
