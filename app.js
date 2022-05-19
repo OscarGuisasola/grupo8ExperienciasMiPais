@@ -17,5 +17,7 @@ app.use("/", mainRouter)
 
 app.use("/products", routerProducts)
 
-
+app.use((req,res, next) =>{
+    res.status(404).render("not-found");
+})
 
