@@ -523,11 +523,12 @@ main section article.card-index img{
 }
 
 .main-cartOG {
-    background-image: url("/images/2.jpg");
-    opacity: 0.9;
+    background-image: url(/images/2.jpg);
     color: black;
-    font-size: 40%;
-    border-radius: 3%;
+    background-repeat: no-repeat;
+    border-radius: 0%;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .main-articleOG{
