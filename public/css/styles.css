@@ -506,34 +506,52 @@ main section article.card-index img{
 /* aca arranca Oscar */
 
 .MiCarritoOG {
-    font-size: 22px;
-    text-align: center;
-    text-shadow: #000;
+    font-size: 27px;
+    text-align: left;
+    text-shadow: black;
     width: 70%;
     color: white;
     margin-left: 10%;
     margin-right: 10%;
-    
 }
 
-.productsw{
-    margin-top: 4px;
-    margin-bottom: 10px;
-    
+.MiCarritoOG2 {
+    font-size: 18px;
+    text-align: right;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.productsOG{
+    margin: 15px;
+    padding: 5%;
+    border: double white;
+    border-radius: 8%;
 }
 
 .main-cartOG {
     background-image: url(/images/2.jpg);
     color: black;
     background-repeat: no-repeat;
-    border-radius: 0%;
+    border-radius: 8%;
     background-attachment: fixed;
     background-size: cover;
+    text-shadow: 1px  0px 0px black,
+    0px  1px 0px black,
+   -1px  0px 0px violet,
+    0px -1px 0px black; 
 }
 
-.main-articleOG{
-    width: 80%;
-    height: 80%;
+.main-articleOG {
+    margin-left: 10%;
+    width: 50%;
+    height: 50%;
+    color: gray;
+}
+
+.main-cardOG {
+   border: 
 }
 
 .cardOG{
@@ -541,7 +559,7 @@ main section article.card-index img{
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 45px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-size: 15px;
     color: rgb(14, 12, 12);
     font-weight: 30;      
@@ -549,39 +567,41 @@ main section article.card-index img{
 
 .cardOG img {
     display: flex;
-    width: 45%;
-    height: 45%;
-    align-items: center;
+    width: 40%;
+    height: 40%;
+    border: solid;
+    border-color: white;
 }
                 
 .BasuraOG {
     color: #5639a8;
-    font-size: 70%;
+    font-size: 75%;
     cursor: pointer;
-    margin-left: 55%;
-    
+    margin-left: 1%;
+    text-align: center;
  }
 
 .priceOG {
-    font-size: 100%;
-    color: black;
+    color: white;
+    font-size: 95%;
 }
 
 .descriptionOG {
     font-size: 90%;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .bajadaOG{ 
-    font-size: 60%;
-    color: black;
+    font-size: 90%;
+    color: white;
     font-variant: small-caps;
     justify-content: center;
 }
 
 .codigoOG{
-    font-size: 16px;
+    font-size: 26px;
+    color: white;
     text-align: center;
     width: 100%;
     margin left: 33%;
@@ -589,7 +609,7 @@ main section article.card-index img{
 }
 
 .form-loginOG {
-    width: 45%;
+    width: 50%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -606,76 +626,40 @@ main section article.card-index img{
 .cierreOG{
     text-align: center;
     border-color: #893dc2;
-    font-size: 20px;
+    font-size: 18px;
     border: double;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 10%;
 }
-
 
 .priceTotalOG{
-    font-size: 110%;
+    font-size: 125%;
     text-align: center;
-    color: black;
-}
-
-
-
-.button1w{
-    width: 33.33%;
-    font-size: 15px;
-    background: linear-gradient(180deg,#5639a8 0,#8865e6);
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 20%;
-    height: 40px;
-    cursor: pointer;
-    transition: .3s ease;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 2px;
-}
-
-.button2w{
-    width: 33.33%;
-    font-size: 15px;
-    background: white;
-    color: black;
-    text-transform: uppercase;
-    border-radius: 20%;
-    height: 40px;
-    cursor: pointer;
-    transition: .3s ease;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 2px;
+    color: white;
 }
 
 .primaryOG {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    padding: 1.3em 3em;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: #000;
-    background-color: #fff;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
+     margin-bottom: 20px;
+     padding: 1.3em 3em;
+     font-size: 12px;
+     text-transform: uppercase;
+     letter-spacing: 2.5px;
+     font-weight: 500;
+     color: #000;
+     background-color: #fff;
+     border: none;
+     border-radius: 45px;
+     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+     transition: all 0.3s ease 0s;
+     cursor: pointer;
+     outline: none;
 }
 
 .primaryOG:hover {
-    background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    background-color: #941494;
+    box-shadow: 0px 15px 20px violet, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
 }
@@ -683,6 +667,16 @@ main section article.card-index img{
 .primaryOG:active {
     transform: translateY(-1px)
 }
+
+.botonesOG{
+padding top: 25px ;
+margin top: 25%; 
+margin left: 25%;
+margin right: 25%;
+text-align: center;
+}
+
+
 
 /* formato OG tablets */
 
@@ -698,6 +692,18 @@ main section article.card-index img{
         margin-right: 10%;
     }
 
+    .MiCarritoOG2 {
+        font-size: 18px;
+        text-align: right;
+        color: white;
+        margin-left: 10%;
+        margin-right: 10%
+        
+    }
+
+
+
+
 .main-cartOG {
         background-image: url("/images/2.jpg");
         opacity: 0.9;
@@ -706,7 +712,7 @@ main section article.card-index img{
         border-radius: 0%;}
 
 .priceOG {
-        font-size: 250%;
+        font-size: 180%;
         color: rgb(244, 242, 247);
         text-align: center;
 }
@@ -741,57 +747,141 @@ main section article.card-index img{
 
 .cardOG img {
         display: flex;
-        max-width: 45%;
-        max-height: 45%;
+        max-width: 50%;
+        max-height: 50%;
         align-items: center;
 }
 
 .BasuraOG {
     color: #5639a8;
-    font-size: 100%;
+    font-size: 80%;
     cursor: pointer;
-    margin-left: 65%;
-    
+    margin-left: 5%;
+    letter-spacing: 1.5px;
+    text-align: center; 
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .priceTotalOG{
-    font-size: 150%;
+    font-size: 190%;
     text-align: center;
     color: white;
+    text-shadow: 1px  0px 0px black,
+    0px  1px 0px black,
+   -1px  0px 0px black,
+    0px -1px 0px black; 
 }
 
 .codigoOG{
     color: white;
-    font-size: 16px;
+    font-size: 26px;
     text-align: center;
     width: 100%;
-    margin left: 33.33%;
-    margin right: 33.33%;   
+    text-shadow: 1px  0px 0px black,
+    0px  1px 0px black,
+   -1px  0px 0px black,
+    0px -1px 0px black; 
 }
 }
 
+
+.cierreOG{
+    text-align: center;
+    border-color: #893dc2;
+    font-size: 20px;
+    border: double;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
 
 /* formato OG Desktops */
 
 @media (min-width:963px){
 
+
+    .MiCarritoOG {
+        color: black;
+}   
+
+    .MiCarritoOG2 {
+        font-size: 28px;
+        text-align: right;
+        color: black;
+        margin-left: 10%;
+        margin-right: 10%
+        
+    }   
+.bajadaOG{ 
+        display:inline-block;
+        text-align: left;
+        font-size: 140%;
+        color: whitesmoke;
+        font-variant: small-caps;
+        justify-content: left;
+        letter-spacing: 1.5px;
+        }
+
+.descriptionOG {
+            display: flex;
+            font-size: 200%;
+            text-align: left;
+            color: white;
+            letter-spacing: 4.5px;
+        }
+
+
 .cardOG img {
-    max-width: 45%;
-    max-height: 45%;
+    max-width: 22%;
+    max-height: 22%;
     align-items: center;
 }
 
 .priceOG {
     display: flex;
-    font-size: 100%;
+    font-size: 250%;
     color: rgb(244, 242, 247);
     text-align: center;
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
+}
+
+.descriptionOG {
+    display: flex;
+    font-size: 130%;
+    text-align: left;
+    color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    letter-spacing: 2.5px;
 }
 
 .priceTotalOG{
-    font-size: 170%;
+    font-size: 180%;
     text-align: center;
-    color: white;
+    color: black;
+    text-shadow: #000;
+}
+
+.BasuraOG {
+    display: inline;
+    color: #5639a8;
+    font-size: 80%;
+    cursor: pointer;
+    margin-left: 5%;
+    letter-spacing: 1.5px;
+    text-align: center; 
+    padding-left: 5%;
+    padding-right: 5%;
+    text-shadow: 1px  0px 0px white,
+    0px  1px 0px white,
+   -1px  0px 0px white,
+    0px -1px 0px white; 
 }
 
 }
