@@ -783,8 +783,6 @@ text-align: center;
    -1px  0px 0px black,
     0px -1px 0px black; 
 }
-}
-
 
 .cierreOG{
     text-align: center;
@@ -819,7 +817,7 @@ text-align: center;
         display:inline-block;
         text-align: left;
         font-size: 140%;
-        color: whitesmoke;
+        color: black;
         font-variant: small-caps;
         justify-content: left;
         letter-spacing: 1.5px;
@@ -829,7 +827,7 @@ text-align: center;
             display: flex;
             font-size: 200%;
             text-align: left;
-            color: white;
+            color: black;
             letter-spacing: 4.5px;
         }
 
@@ -843,7 +841,7 @@ text-align: center;
 .priceOG {
     display: flex;
     font-size: 250%;
-    color: rgb(244, 242, 247);
+    color: black;
     text-align: center;
     text-shadow: 1px  0px 0px black,
                0px  1px 0px black,
@@ -882,6 +880,16 @@ text-align: center;
     0px  1px 0px white,
    -1px  0px 0px white,
     0px -1px 0px white; 
+}
+.codigoOG{
+    color: black;
+    font-size: 26px;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px  0px 0px black,
+    0px  1px 0px black,
+   -1px  0px 0px black,
+    0px -1px 0px black; 
 }
 
 }
