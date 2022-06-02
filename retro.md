@@ -70,17 +70,31 @@ Menos es más. Tener objetivos pequeños que podamos ir cumpliendo, en vez de gr
 **Retrospectiva Sprint 4**
 
 1. Comenzar a hacer
-Aceptar nuestra realidad. No nos queda otra que procesar la perdida de Mayra, a quien considerabamos "Capitana" de nuestro equipo. El golpe es muy duro, pero no nos puede detener. 
+A) Aceptar nuestra realidad. No nos queda otra que procesar la perdida de Mayra, a quien considerabamos "Capitana" de nuestro equipo. El golpe es muy duro, pero no nos puede detener. 
+B) Recorrer algunos sitios que contienen documentacion de vital importancia para este sprint, refrescando la memoria y aportando nuevas miradas: 
+*aprenderaprogramar.com-Ejemplos de Json
+*developer.alegra.com/docs/lista-de-productos-o-servicios
+*gist.github.com/rubenCodeforges/ef1f0ce6a055bbb985c0848d8b0c04d5
+
+
 
 2. Hacer más
 Multiplicar los esfuerzos para seguir ayudandonos. 
-Ademas, incrementar el número de reuniones entre semana. En esta etapa, vamos a tener que replicar y reacomodar trabajos pendientes
+Ademas, incrementar el número de reuniones entre semana. En esta etapa, vamos a tener que replicar y reacomodar trabajos pendientes.
+Planificar como se veria nuestra base de datos mediante sitios como tonic.ai/?ref=mockaroo 
 
 3. Continuar haciendo
 Reforzar los espacios ya ganados. Potenciar la comunicacion por las vias tradicionales.
+Seguir compartiendo los atajos y soluciones que encontramos en https://developer.mozilla.org/es/docs/Web/API/IDBDatabase 
+
 
 4. Hacer menos
-En esta etapa debemos cerrar algunas cuestiones de "css" y dedicarle mas tiempo a ver mokaroo
+En esta etapa debemos cerrar algunas cuestiones de "css" y dedicarle mas tiempo a "mokaroo".
+
 
 5. Dejar de hacer
-Dejar de quejarse por los plazos. El tiempo es poco y vuela. Nosotros debemos ser inteligentes para sumar horas/minutos de "código" entre la semana.
+A) Continuidad de Reuniones:
+No logramos tener exito con las reuniones de startus diario. 
+En nuestro caso, no pudimos implementar "daily standups", tal vez se trate de un desafio que debamos sortear en un futuro no muy lejano. 
+B) Dejar de quejarse por los plazos. El tiempo es poco y vuela. Nosotros debemos ser inteligentes para sumar horas/minutos de "código" entre la semana.
+

@@ -1,0 +1,60 @@
+{
+    "arrayUsuarios":[
+        
+        {
+        "identificadorId": 1,
+        "nombre":"bla",
+        "apellido":"aa bla",
+        "email": "@ble@",
+        "contraseña": "pass",
+        "categoria":"novato",
+        "imagen": "img"
+        },
+
+        {
+            "identificadorId": 2,
+            "nombre":"bla",
+            "apellido":"aa bla",
+            "email": "@ble@",
+            "contraseña": "pass",
+            "categoria":"novato",
+            "imagen": "img"
+        },
+
+        {
+            "identificadorId": 3,
+            "nombre":"bla",
+            "apellido":"aa bla",
+            "email": "@ble@",
+            "contraseña": "pass",
+            "categoria":"novato",
+            "imagen": "img"
+        },
+
+        {
+            "identificadorId": 4,
+            "nombre":"bla",
+            "apellido":"aa bla",
+            "email": "@ble@",
+            "contraseña": "pass",
+            "categoria":"novato",
+            "imagen": "img"
+        },
+
+        {
+            "identificadorId": 5,
+            "nombre":"bla",
+            "apellido":"aa bla",
+            "email": "@ble@",
+            "contraseña": "pass",
+            "categoria":"novato",
+            "imagen": "img"
+        }
+    ]
+}
+
+
+
+
+
+

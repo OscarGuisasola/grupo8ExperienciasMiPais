@@ -1,0 +1,53 @@
+
+{
+    "arrayProductos":[
+        
+
+
+        {
+        "identificadorId": 1,
+        "nombre":"Trekking",
+        "descripcion":"bla bla",
+        "imagen": "ble",
+        "categoria": "uh",
+        "precio":"$"
+        },
+
+        {
+        "identificadorId": 2,
+        "nombre":"Trekking",
+        "descripcion":"bla bla",
+        "imagen": "ble",
+        "categoria": "uh",
+        "precio":"$"
+        },
+        
+        {
+        "identificadorId": 3,
+        "nombre":"Trekking",
+        "descripcion":"bla bla",
+        "imagen": "ble",
+        "categoria": "uh",
+        "precio":"$"
+        },
+
+        {
+        "identificadorId": 4,
+        "nombre":"Trekking",
+        "descripcion":"bla bla",
+        "imagen": "ble",
+        "categoria": "uh",
+        "precio":"$"
+        },
+
+        {
+        "identificadorId": 5,
+        "nombre":"Trekking",
+        "descripcion":"bla bla",
+        "imagen": "ble",
+        "categoria": "uh",
+        "precio":"$"
+        }
+    ]
+}
+
