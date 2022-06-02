@@ -3,6 +3,7 @@ const app = express();
 const path = require('path');
 const mainRouter = require("./routers/main");
 const routerProducts = require("./routers/products");
+const session = require("express-session");
 
 app.set("view engine", "ejs");
 app.set("views", path.resolve("views"))
@@ -16,6 +17,8 @@ app.use(express.static('public'));
 app.use("/", mainRouter)
 
 app.use("/products", routerProducts)
+
+
 
 app.use((req,res, next) =>{
     res.status(404).render("not-found");

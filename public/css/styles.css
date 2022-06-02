@@ -503,7 +503,6 @@ main section article.card-index img {
   background-image: url(/images/2.jpg);
   color: black;
   background-repeat: no-repeat;
-  border-radius: 8%;
   background-attachment: fixed;
   background-size: cover;
   text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px violet,
